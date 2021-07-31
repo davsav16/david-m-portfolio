@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.text {
+  font-size: 8px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  wrap: wrap;
+}
+
+.icons {
+  padding: 15px;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -5,6 +5,7 @@ import Navigation from './components/Navigation';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [aboutSelected, setAboutSelected] = useState(true);
@@ -43,6 +44,7 @@ function App() {
           <About></About>
         )} 
       </main>
+      <Footer />
     </div>
   );
 }
