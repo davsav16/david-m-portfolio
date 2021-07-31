@@ -1,0 +1,38 @@
+[
+    {
+        "projectName": "Tech Blog",
+        "link": "https://afternoon-castle-80416.herokuapp.com/",
+        "github": "https://github.com/davsav16/Tech-Blog-For-Nerds",
+        "tools": "HandleBars, JavaScript, CSS, JEST, Node, Sequelize, Authentication, Cookies, SQL, RESTful APIS and Crud."
+    },
+    {
+        "projectName": "Deep Thoughts",
+        "link": "https://warm-crag-88935.herokuapp.com/",
+        "github": "https://github.com/davsav16/deep-thoughts",
+        "tools": "React, JavaScript, CSS, Apollo Client, Heroku, GraphQL, MongoDB, Mutations, and JSON Web Tokens."
+    },
+    {
+        "projectName": "Budget Tracker",
+        "link": "https://mysterious-basin-87435.herokuapp.com/",
+        "github": "https://github.com/davsav16/Budget-Tracker",
+        "tools": "HTML, CSS, JavaScript, IndexedDB, Progressive Web Applications, MongoDB, Mongoose, and Express."
+    },
+    {
+        "projectName": "Pizza Hut World Wide",
+        "link": "https://immense-savannah-08698.herokuapp.com/",
+        "github": "https://github.com/davsav16/Pizza-Hut-World-Wide",
+        "tools": "HTML, CSS, JavaScript, IndexedDB, MongoDB, Mongoose, Validation, MongoDB Atlas, and EXpress."
+    },
+    {
+        "projectName": "Food Festival",
+        "link": "https://davsav16.github.io/improved-food-festival/",
+        "github": "https://github.com/davsav16/improved-food-festival",
+        "tools": "HTML, CSS, JavaScript, Webpack, Service Workers, PWA, and Lighthouse."
+    },
+    {
+        "projectName": "Board Games",
+        "link": "https://yana-mkr.github.io/board-games-6/",
+        "github": "https://github.com/davsav16/board-games-6",
+        "tools": "HTML, CSS, JavaScript, Web APIS, and Local Storage."
+    }
+]

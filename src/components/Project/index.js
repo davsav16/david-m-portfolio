@@ -1,30 +1,19 @@
-import React from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
-import photo from '../../assets/project-imgs/budgettracker.png';
+import React, { useState } from 'react';
+// import projects from '../../assets/projects.json';
 
-
-function Project(props) {
-    const currentPage = {
-        projectName: "projectOne",
-        link: "thisproject.com",
-        github: "github.com",
-        tools: "javaScript"
-
-    }
-
+function Project() {
+    // const [ projectList, setProjectList ] = useState(projects)
+    
     return (
         <section>
-            <div className="flex-row">
-                <img 
-                src={photo} 
-                alt="Budget Example"
-                className="img-thumbnail mx-1"
-                />
+            Hello there
+            {/* <div className="flex-row">
+             <ProjectList />
             </div>
             <h1>{capitalizeFirstLetter(currentPage.projectName)}</h1>
             <h2>{currentPage.link}</h2>
             <h2>{currentPage.github}</h2>
-            <h2>{capitalizeFirstLetter(currentPage.tools)}</h2>
+            <h2>{capitalizeFirstLetter(currentPage.tools)}</h2> */}
         </section>
     )
 }
