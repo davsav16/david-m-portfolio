@@ -1,19 +1,27 @@
 import React, { useState } from 'react';
-// import projects from '../../assets/projects.json';
+import Card from '../Card';
+import projects from '../../assets/projects.json';
 
 function Project() {
-    // const [ projectList, setProjectList ] = useState(projects)
+    const [ projectList, setProjectList ] = useState(projects)
     
     return (
-        <section>
-            Hello there
-            {/* <div className="flex-row">
-             <ProjectList />
+        <section section id='project'>
+            <h2>Projects</h2>
+            <div>
+                <div>
+                    {projectList.map((props, idx) => {
+                        return(<Card
+                            projectName={props.projectName}
+                            link={props.link}
+                            github={props.github}
+                            tools={props.tools}
+                            alt={props.alt}
+                            key={idx}    
+                        />)
+                    })}
+                </div>
             </div>
-            <h1>{capitalizeFirstLetter(currentPage.projectName)}</h1>
-            <h2>{currentPage.link}</h2>
-            <h2>{currentPage.github}</h2>
-            <h2>{capitalizeFirstLetter(currentPage.tools)}</h2> */}
         </section>
     )
 }
