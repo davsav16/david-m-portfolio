@@ -40,16 +40,13 @@ function Contact() {
             <h1 className="projectSec">Want to connect? Reach out! </h1>
             <form className="contactStyle" id="contact-form" onSubmit={handleSubmit}>
                 <div className="contactDiv">
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" defaultValue={name} onBlur={handleChange} name="name"  />
+                    <input placeholder="Please Enter Your Name" type="text" defaultValue={name} onBlur={handleChange} name="name"  />
                 </div>
                 <div className="contactDiv">
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
+                    <input placeholder="Please Enter Your Email" type="email" defaultValue={email} name="email" onBlur={handleChange} />
                 </div>
                 <div className="contactDiv">
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} rows="5" onBlur={handleChange} />
+                    <textarea placeholder="Enter Your Message Here" name="message" defaultValue={message} rows="5" onBlur={handleChange} />
                 </div>
                 {errorMessage && (
                     <div>
