@@ -253,6 +253,12 @@ nav  li {
   padding-top: 27px;
 }
 
+#skillTitle {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
 textarea {
 	width: 70%;
 	height: 120px;
@@ -365,6 +371,18 @@ textarea {
 }
 
 /*Skills*/
+
+.skillContainer {
+  background-color: white;
+  margin: 4vw;
+  border-style: solid;
+  border-radius: 3vw;
+}
+
+.skillPad {
+  padding:3vw;
+}
+
 #skills {
   display: flex;
   margin-top: 50px; 
