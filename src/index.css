@@ -171,10 +171,14 @@ nav  li {
   justify-content: center;
 }
 #profilePic {
-  max-width: 40%;
+  max-width: 130%;
   padding: 15px;
   border-radius: 25px;
-  max-height: 339px;
+  border-width: 15px;
+  border-color: beige;
+}
+.proPicCon {
+  max-width: 23%;
 }
 
 .nav-padding {
@@ -314,4 +318,28 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+@media screen and (max-width:872px) {
+  .proPicCon {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #profilePic {
+    max-width: 44%;
+  }
+}
+
+@media screen and (max-width:605px) {
+  #profilePic {
+    max-width: 55%;
+  }
+}
+
+@media screen and (max-width:360px) {
+  #profilePic {
+    max-width: 113%;
+  }
 }
