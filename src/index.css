@@ -53,6 +53,8 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  font-weight: bold;
+  color: var(--primary);
 }
 
 h2 {
@@ -170,6 +172,19 @@ nav  li {
 
 .aboutSec {
   padding: 20px;
+}
+
+.aboutTextCont {
+    width: 77%;
+    height: fit-content;
+    background-color: white;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 10px;
+}
+
+#aboutText {
+  padding: 10px;
 }
 
 #about {
@@ -388,6 +403,12 @@ a {
     max-width: 44%;
   }
 
+  .aboutTextCont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
   .flex-card {
     max-width: 50%;
   }
@@ -430,6 +451,10 @@ a {
 @media screen and (max-width:360px) {
   #profilePic {
     max-width: 113%;
+  }
+
+  .aboutSec {
+    padding: 0px
   }
   
 }
