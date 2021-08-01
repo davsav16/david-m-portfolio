@@ -37,17 +37,17 @@ function Contact() {
 
     return(
         <section>
-            <h1>Want to connect? Reach out! </h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
+            <h1 className="projectSec">Want to connect? Reach out! </h1>
+            <form className="contactStyle" id="contact-form" onSubmit={handleSubmit}>
+                <div className="contactDiv">
                     <label htmlFor="name">Name:</label>
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name"  />
                 </div>
-                <div>
+                <div className="contactDiv">
                     <label htmlFor="email">Email address:</label>
                     <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
                 </div>
-                <div>
+                <div className="contactDiv">
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" defaultValue={message} rows="5" onBlur={handleChange} />
                 </div>

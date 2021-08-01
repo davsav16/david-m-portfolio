@@ -129,7 +129,7 @@ span[role="img"] {
 }
 
 form {
-  width: 40%;
+  width: 100%;
 }
 
 input {
@@ -222,6 +222,20 @@ nav  li {
   color: var(--primary);
   border-bottom: solid;
   border-width: 3px;
+}
+
+.contactStyle {
+  width: 95%;
+  text-align: center;
+  margin: 3vw;
+  border-style: solid;
+  border-width: 4px;
+  background-color: rgb(215, 232, 238);
+  border-color: var(--primary);
+}
+
+.contactDiv {
+  padding-top: 27px;
 }
 
 textarea {
