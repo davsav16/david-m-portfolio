@@ -13,16 +13,16 @@ function Navigation(props) {
     } = props
 
     return (
-        <header>
+        <header className="flex-row">
             <h2>
                 <a href="/">
                     David McDougal's Portfolio
                 </a>
             </h2>
             <nav>
-                <ul>
+                <ul className="flex-row space-between nav-padding">
                         <li className={`${aboutSelected && 'navActive'}`}>
-                            <a href="#about"                             
+                            <a href="#about"   
                             onClick={() => { setAboutSelected(true); setContactSelected(false); setResumeSelected(false); setProjectSelected(false); }}>
                             <h3>About Me</h3></a>
                         </li>
