@@ -51,3 +51,19 @@
   display: flex;
   flex-wrap: wrap;
 }
+/*Skills*/
+#skills {
+  display: flex;
+  margin-top: 50px; 
+}
+.Sitem {
+  width: 11vw;
+  padding: 2px;
+}
+
+.displaySkill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 57px;
+}
