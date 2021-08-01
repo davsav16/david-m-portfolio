@@ -5,7 +5,7 @@ import profilePic from "../../assets/aboutImg.png";
 function About() {
     return (
         <section>
-            <img src={coverImage} className="my-2" style={{ width: "100%"}} alt="Image from behind a waterfall." />
+            <img src={coverImage} className="waterPic" style={{ width: "100%"}} alt="Image from behind a waterfall." />
             <div className="aboutSec">
                 <h1 id="about">About Me</h1>
                 <div className="aboutSec flex-row container">
