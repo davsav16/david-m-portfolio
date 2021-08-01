@@ -213,6 +213,17 @@ nav  li {
   font-weight: bold;
 }
 
+.projectSec {
+  font-weight: bold;
+  text-align: center;
+  padding: 3vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  color: var(--primary);
+  border-bottom: solid;
+  border-width: 3px;
+}
+
 textarea {
 	width: 600px;
 	height: 120px;
@@ -362,15 +373,15 @@ a {
   #profilePic {
     max-width: 44%;
   }
+
+  .flex-card {
+    max-width: 50%;
+  }
 }
 
 @media screen and (max-width:605px) {
   #profilePic {
     max-width: 90%;
-  }
-
-  .space-between {
-    
   }
 
   .navMobile {
@@ -386,6 +397,10 @@ a {
   #headerTitle {
     text-align: center;
   }
+  .flex-card {
+    max-width: 100%;
+  }
+
 }
 
 @media screen and (max-width:360px) {

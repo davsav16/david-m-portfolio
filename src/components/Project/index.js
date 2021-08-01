@@ -7,7 +7,7 @@ function Project() {
     
     return (
         <section section id='project'>
-            <h2>Projects</h2>
+            <h2 className="projectSec">Projects</h2>
             <div>
                 <div className="card-flex">
                     {projectList.map((props, idx) => {
