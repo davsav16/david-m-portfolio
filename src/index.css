@@ -36,7 +36,6 @@ body {
   letter-spacing: .1em;
   background: var(--light);
   color: var(--secondary);
-  font-family: 'Poiret One', cursive;
 
 }
 
@@ -173,6 +172,9 @@ nav  li {
 }
 #profilePic {
   max-width: 40%;
+  padding: 15px;
+  border-radius: 25px;
+  max-height: 339px;
 }
 
 .nav-padding {
@@ -213,7 +215,6 @@ textarea {
 }
 
 .mx-2 {
-  margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
 }
 
