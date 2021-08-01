@@ -1,9 +1,11 @@
 import React from 'react';
+import davidResume from '../../assets/document/David_McDougal_Resume_2.pdf'
 
 function Resume() {
     return (
         <section>
-            <h1>hello there</h1>
+            <a href={davidResume} download="resume">Download</a>
+            
         </section>
     )
 }
