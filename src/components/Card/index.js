@@ -16,6 +16,7 @@ function Card(props) {
                 link={props.link}
                 github={props.github}
                 tools={props.tools}
+                description={props.description}
             />}
             <div>
                 <img src={require(`../../assets/project-imgs/${props.projectName}.png`).default} alt={props.alt} />

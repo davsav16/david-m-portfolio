@@ -4,41 +4,48 @@
         "link": "https://afternoon-castle-80416.herokuapp.com/",
         "github": "https://github.com/davsav16/Tech-Blog-For-Nerds",
         "alt": "Screenshot of multiple posts and comments on a website.",
-        "tools": "HandleBars, JavaScript, CSS, JEST, Node, Sequelize, Authentication, Cookies, SQL, RESTful APIS and Crud."
+        "tools": "HandleBars, JavaScript, CSS, JEST, Node, Sequelize, Authentication, Cookies, SQL, RESTful APIS and Crud.",
+        "description": "This application allows users to create a profile and then engage in conversation regarding programming news from around the world."
+
     },
     {
         "projectName": "Deep Thoughts",
         "link": "https://warm-crag-88935.herokuapp.com/",
         "github": "https://github.com/davsav16/deep-thoughts",
         "alt": "Screenshot showing a deep thought about the sky.",
-        "tools": "React, JavaScript, CSS, Apollo Client, Heroku, GraphQL, MongoDB, Mutations, and JSON Web Tokens."
+        "tools": "React, JavaScript, CSS, Apollo Client, Heroku, GraphQL, MongoDB, Mutations, and JSON Web Tokens.",
+        "description": "This is a website I develop while learning react, where users can add their thoughts, make friends, and react to each others posts."
     },
     {
         "projectName": "Budget Tracker",
         "link": "https://mysterious-basin-87435.herokuapp.com/",
         "github": "https://github.com/davsav16/Budget-Tracker",
         "alt": "Photo of a budget being tracked over time.",
-        "tools": "HTML, CSS, JavaScript, IndexedDB, Progressive Web Applications, MongoDB, Mongoose, and Express."
+        "tools": "HTML, CSS, JavaScript, IndexedDB, Progressive Web Applications, MongoDB, Mongoose, and Express.",
+        "description": "This is a budget app that a traveler could use to keep track of their budget. It will allow for the traveler to add transactions to their budget even when they do not have data/internet."
     },
     {
         "projectName": "Pizza Hut World Wide",
         "link": "https://immense-savannah-08698.herokuapp.com/",
         "github": "https://github.com/davsav16/Pizza-Hut-World-Wide",
-        "alt": "Screenshot of a webiste for pizzas.",
-        "tools": "HTML, CSS, JavaScript, IndexedDB, MongoDB, Mongoose, Validation, MongoDB Atlas, and EXpress."
+        "alt": "Screenshot of a website for pizzas.",
+        "tools": "HTML, CSS, JavaScript, IndexedDB, MongoDB, Mongoose, Validation, MongoDB Atlas, and EXpress.",
+        "description": "This app was developed for users to post about their favorite pizza and discuss it online."
     },
     {
         "projectName": "Food Festival",
         "link": "https://davsav16.github.io/improved-food-festival/",
         "github": "https://github.com/davsav16/improved-food-festival",
         "alt": "Screenshot showing a website for food lovers to join events.",
-        "tools": "HTML, CSS, JavaScript, Webpack, Service Workers, PWA, and Lighthouse."
+        "tools": "HTML, CSS, JavaScript, Webpack, Service Workers, PWA, and Lighthouse.",
+        "description": "Created this PWA app during a lesson to create the ability for foodies to gather for events and purchase tickets for the event."
     },
     {
         "projectName": "Board Games",
         "link": "https://yana-mkr.github.io/board-games-6/",
         "github": "https://github.com/davsav16/board-games-6",
         "alt": "Screenshot of a board game selector.",
-        "tools": "HTML, CSS, JavaScript, Web APIS, and Local Storage."
+        "tools": "HTML, CSS, JavaScript, Web APIS, and Local Storage.",
+        "description": "Created this website to allow users to search for and find a new favorite board game from a list of drop down options."
     }
 ]

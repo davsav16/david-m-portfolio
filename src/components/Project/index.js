@@ -17,6 +17,7 @@ function Project() {
                             github={props.github}
                             tools={props.tools}
                             alt={props.alt}
+                            description={props.description}
                             key={idx}    
                         />)
                     })}
