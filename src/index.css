@@ -332,6 +332,54 @@ textarea {
   background-color: rgb(215, 232, 238);
   border-color: var(--primary);
 }
+.resSect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.resumeCont {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+
+.resumeCard {
+  width: 70%;
+  text-align: center;
+  border-style: solid;
+  border-width: 4px;
+  background-color: rgb(215, 232, 238);
+  border-color: var(--primary);
+}
+
+#resPic {
+  max-width: 90%;
+  margin: 2vw;
+  border: solid;
+  border-width: 3px;
+  border-color: var(--primary);
+}
+
+/*Skills*/
+#skills {
+  display: flex;
+  margin-top: 50px; 
+}
+.Sitem {
+  width: 11vw;
+  padding: 2px;
+}
+
+.displaySkill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 
 .img-thumbnail {
   width: auto;
@@ -411,6 +459,10 @@ a {
 
   .flex-card {
     max-width: 50%;
+  }
+
+  .resumeCard {
+    width: 95%;
   }
 }
 
