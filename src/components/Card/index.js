@@ -19,9 +19,11 @@ function Card(props) {
                 description={props.description}
             />}
             <div className="card">
-                <img src={require(`../../assets/project-imgs/${props.projectName}.png`).default} alt={props.alt} />
-                <div>
-                    <h3>{props.projectName}</h3>
+                <img src={require(`../../assets/project-imgs/${props.projectName}.png`).default} alt={props.alt} className="projectImg" />
+                <div className="cardInfo">
+                    <h2>{props.projectName}</h2>
+                    <h4>Created Using:</h4>
+                    <p>{props.tools}</p>
                    
                     <button onClick={handleShow} id="modal-button">Click for Info</button>
                 </div>

@@ -188,8 +188,11 @@ nav  li {
 }
 
 .nav-padding {
-  margin: 10px 10px 0px;
-  padding: 0px;
+  margin: 0vw 5vw 0vw;
+}
+
+.projectImg {
+  padding: 2vw;
 }
 
 .card-flex{
@@ -199,7 +202,15 @@ nav  li {
 
 .flex-card {
   display:flex;
-  max-width: 50%;
+  max-width: 33%;
+}
+
+.cardInfo {
+  margin-top: auto;
+}
+
+.cardInfo h2 {
+  font-weight: bold;
 }
 
 textarea {
@@ -275,9 +286,10 @@ textarea {
 .card {
   width: 95%;
   text-align: center;
-  margin: 15px;
+  margin: 3vw;
   border-style: solid;
   border-width: 4px;
+  background-color: rgb(215, 232, 238);
   border-color: var(--primary);
 }
 
