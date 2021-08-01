@@ -8,7 +8,7 @@ function Card(props) {
     const handleShow = () => setShow(true);
 
     return(
-        <div>
+        <div className="flex-card">
             {handleShow && <Modal 
                 show={show}
                 onClose={handleClose}
@@ -18,7 +18,7 @@ function Card(props) {
                 tools={props.tools}
                 description={props.description}
             />}
-            <div>
+            <div className="card">
                 <img src={require(`../../assets/project-imgs/${props.projectName}.png`).default} alt={props.alt} />
                 <div>
                     <h3>{props.projectName}</h3>

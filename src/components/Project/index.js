@@ -9,7 +9,7 @@ function Project() {
         <section section id='project'>
             <h2>Projects</h2>
             <div>
-                <div>
+                <div className="card-flex">
                     {projectList.map((props, idx) => {
                         return(<Card
                             projectName={props.projectName}
