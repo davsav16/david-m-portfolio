@@ -88,7 +88,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  
+  color: var(--light);
 }
 
 header {
@@ -156,10 +156,16 @@ nav {
 
 nav a:hover {
   text-shadow: white(3px);
+  color: var(--light);
 }
 
 nav  li {
   cursor: pointer;
+}
+
+#headerTitle {
+  margin: 0px 10px 0px;
+  padding-top: 20px;
 }
 
 .aboutSec {
@@ -182,7 +188,7 @@ nav  li {
 }
 
 .nav-padding {
-  margin: 10px;
+  margin: 10px 10px 0px;
   padding: 0px;
 }
 
@@ -200,7 +206,7 @@ textarea {
   margin-right: auto;
 }
 
-.flex-row {
+.flex-row1 {
   display: flex;
   flex-wrap: wrap;
 }
@@ -334,7 +340,25 @@ a {
 
 @media screen and (max-width:605px) {
   #profilePic {
-    max-width: 55%;
+    max-width: 90%;
+  }
+
+  .space-between {
+    
+  }
+
+  .navMobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  #headerTitle {
+    text-align: center;
   }
 }
 
@@ -342,4 +366,5 @@ a {
   #profilePic {
     max-width: 113%;
   }
+  
 }
