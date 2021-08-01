@@ -388,7 +388,7 @@ textarea {
   margin-top: 50px; 
 }
 .Sitem {
-  width: 11vw;
+  width: 12vw;
   padding: 2px;
 }
 
@@ -482,6 +482,10 @@ a {
   .resumeCard {
     width: 95%;
   }
+  .Sitem {
+    width: 14vw;
+    padding: 2px;
+  }
 }
 
 @media screen and (max-width:605px) {
@@ -516,6 +520,11 @@ a {
     height: 319px;
   }
 
+  .Sitem {
+    width: 20vw;
+    padding: 2px;
+  }
+
 }
 
 @media screen and (max-width:360px) {
@@ -525,6 +534,11 @@ a {
 
   .aboutSec {
     padding: 0px
+  }
+
+  .Sitem {
+    width: 30vw;
+    padding: 2px;
   }
   
 }

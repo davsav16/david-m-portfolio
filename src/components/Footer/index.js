@@ -9,16 +9,16 @@ function Footer() {
         <footer>
             <div className="icons">
                 <a href="https://github.com/davsav16" target="_blank" rel="noreferrer">
-                    <img src={GitHub} alt="cover"/>
+                    <img src={GitHub} alt="GitHub Logo" />
                 </a>
                 <a href="https://www.linkedin.com/in/mcdougaldavid/" target="_blank" rel="noreferrer">
-                    <img src={linkedin} alt="cover"/>
+                    <img src={linkedin} alt="LinkedIn Logo"/>
                 </a>
                 <a href="https://www.facebook.com/david.mcdougal.14/" target="_blank" rel="noreferrer">
-                    <img src={Facebook} alt="cover"/>
+                    <img src={Facebook} alt="FaceBook Logo"/>
                 </a>
             </div>
-            <div className="text">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div className="text">Icons made by <a href="https://www.freepik.com" title="Freepik"target="_blank" rel="noreferrer">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"target="_blank" rel="noreferrer">www.flaticon.com</a></div>
         </footer>
     )
     

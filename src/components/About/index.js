@@ -5,7 +5,7 @@ function About() {
     return (
         <section>
             <div className="aboutSec">
-                <h1 id="about">About Me</h1>
+                <h1 className="projectSec" id="about">About Me</h1>
                 <div className="aboutSec flex-row1 container">
                     <div className="aboutTextCont">
                     <p id="aboutText"className="col">
