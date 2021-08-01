@@ -4,7 +4,13 @@ import davidResume from '../../assets/document/David_McDougal_Resume_2.pdf'
 function Resume() {
     return (
         <section>
-            <a href={davidResume} download="resume">Download</a>
+            <div>
+            <a href={davidResume} download="resume">
+                <img src={require('../../assets/document/ResumeShot.PNG').default} alt="Snapshot of David McDougal's Resume." />
+            </a>
+            <h2>Click Image to DownLoad</h2>
+            </div>
+            
 
             <h2>Skills</h2>
             <div>

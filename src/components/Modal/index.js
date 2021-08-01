@@ -9,9 +9,9 @@ function Modal(props) {
             <div className="modalBackdrop">
                 <div className="modalContainer">
                     <h3>{projectName}</h3>
-                    <a href={link} target="_blank">Deployed Site</a>
+                    <a href={link} target="_blank" rel="noreferrer">Deployed Site</a>
                     ||
-                    <a href={github} target="_blank">GitHub Repository</a>
+                    <a href={github} target="_blank" rel="noreferrer">GitHub Repository</a>
                     <img src={require(`../../assets/project-imgs/${projectName}.png`).default} alt={alt}/>
                     <p>{description}</p>
                     
