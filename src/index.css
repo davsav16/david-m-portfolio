@@ -458,6 +458,21 @@ a {
   color: var(--secondary);
 }
 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.icons img:hover {
+  animation: App-logo-spin;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
 @media screen and (max-width:872px) {
   .proPicCon {
     max-width: 100%;

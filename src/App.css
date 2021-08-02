@@ -37,6 +37,11 @@
   }
 }
 
+.appSpin {
+  animation: App-logo-spin;
+  animation-duration: 4s;
+}
+
 .text {
   font-size: 8px;
   color: white;

@@ -9,13 +9,13 @@ function Footer() {
         <footer>
             <div className="icons">
                 <a href="https://github.com/davsav16" target="_blank" rel="noreferrer">
-                    <img src={GitHub} alt="GitHub Logo" />
+                    <img className="appSpin" src={GitHub} alt="GitHub Logo" />
                 </a>
                 <a href="https://www.linkedin.com/in/mcdougaldavid/" target="_blank" rel="noreferrer">
-                    <img src={linkedin} alt="LinkedIn Logo"/>
+                    <img className="appSpin" src={linkedin} alt="LinkedIn Logo"/>
                 </a>
                 <a href="https://www.facebook.com/david.mcdougal.14/" target="_blank" rel="noreferrer">
-                    <img src={Facebook} alt="FaceBook Logo"/>
+                    <img className="appSpin" src={Facebook} alt="FaceBook Logo"/>
                 </a>
             </div>
             <div className="text">Icons made by <a href="https://www.freepik.com" title="Freepik"target="_blank" rel="noreferrer">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"target="_blank" rel="noreferrer">www.flaticon.com</a></div>
