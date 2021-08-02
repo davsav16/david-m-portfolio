@@ -54,13 +54,15 @@ function Contact() {
                     </div>
                 )}
                 <button type="submit">Submit</button>
+
+                <div>
+                    <ul>
+                        <li><a>Phone: 385.288.7920</a></li>
+                        <li><a href="mailto:david.mcdougal00@gmail.com">Email: david.mcdougal00@gmail.com</a></li>
+                    </ul>
+                </div>
             </form>
-            <div>
-                <ul>
-                    <li><a>Phone: 385.288.7920</a></li>
-                    <li><a href="mailto:david.mcdougal00@gmail.com">Email: david.mcdougal00@gmail.com</a></li>
-                </ul>
-            </div>
+           
         </section>
     )
 }
