@@ -370,6 +370,10 @@ textarea {
   border-color: var(--primary);
 }
 
+#resPic:hover {
+  opacity: .7;
+}
+
 /*Skills*/
 
 .skillContainer {
@@ -424,6 +428,24 @@ textarea {
 	margin: 50px auto;
 	padding: 15px;
 	width: 960px;
+}
+
+.modeStyle h3 {
+  color: white;
+  margin-left: 3vw;
+}
+
+.modeStyle {
+  color: white;
+  margin: 3vw;
+}
+
+.modeStyle img {
+  padding: 2vw;
+}
+
+.modeBtnStyle {
+  padding-left: 2vw;
 }
 
 .modalTitle {
