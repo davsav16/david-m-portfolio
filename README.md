@@ -4,10 +4,10 @@
 Welcome to the repo for my web portfolio! :) In this website you will find some of my most recent web development proects that I have completed and worked on to grow my skills as a web developer. This website showcases some of my most recent skills that I have gained. Feel free to look through this repo and to reach out if you have any questions or if you feel like I could help you at your organization or on a project!
 
 ## Table of Contents
--[Languages](#languages)
--[Tools](#tools)
--[Deployed Site](#deployed)
--[Screenshots](#screenshot)
+- [Languages](#languages)
+- [Tools](#tools)
+- [Deployed Site](#deployed)
+- [Screenshots](#screenshot)
 
 ## Languages
 - React
