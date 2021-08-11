@@ -15,7 +15,7 @@ function Navigation(props) {
     return (
         <header className="flex-row">
             <h2 id="headerTitle">
-                <a href="/">
+                <a href="#about" onClick={() => { setAboutSelected(true); setContactSelected(false); setResumeSelected(false); setProjectSelected(false); }}>
                     David McDougal's Portfolio
                 </a>
             </h2>
