@@ -1,70 +1,100 @@
-import React, { useState} from 'react';
-import { validateEmail } from '../../utils/helpers';
+import React, { Component } from "react";
+import * as emailjs from "emailjs-com";
 
-function Contact() {
-    const [formState, setFormState] = useState({ name: '', email: '', message: ''});
-    const { name, email, message } = formState;
-    const [errorMessage, setErrorMessage] = useState('');
 
-    function handleChange(e) {
-        setFormState({...formState, [e.target.name]: e.target.value })
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
-            console.log(isValid);
-
-            if (!isValid) {
-                setErrorMessage('Your email is invalid');
-            } else {
-                setErrorMessage('');
-            }
-        } else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
-            } else {
-                setErrorMessage('');
-            }
-        }
-
-       if (!errorMessage) {
-           setFormState({ ...formState, [e.target.name]: e.target.value });
-       }
+export class Contact extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: "",
+            phone: "",
+            message: "",
+            email: "",
+        };
+        this.handleChange = this.handleChange.bind(this);
+        this.handleChange = this.handleChange.bind(this);
+    }
+    handleChange = (e) => {
+        this.setState({ [e.target.name]: e.target.value });
     };
-
-    function handleSubmit(e) {
+    handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formState);
+        emailjs.sendForm(
+            "service_5tu8gsp",
+            "template_swhfurs",
+            ".contact_form_class",
+            "user_d9lR5mRes2OOmibKQi35c"
+        )
+        .then()
+        .catch();
+        this.setState({
+            name: "",
+            phone: "",
+            message: "",
+            email: "",
+        });
     };
-
-    return(
-        <section>
-            <h1 className="projectSec">Want to connect? Reach out! </h1>
-            <form className="contactStyle" id="contact-form" onSubmit={handleSubmit}>
-                <div className="contactDiv">
-                    <input placeholder="Please Enter Your Name" type="text" defaultValue={name} onBlur={handleChange} name="name"  />
-                </div>
-                <div className="contactDiv">
-                    <input placeholder="Please Enter Your Email" type="email" defaultValue={email} name="email" onBlur={handleChange} />
-                </div>
-                <div className="contactDiv">
-                    <textarea placeholder="Enter Your Message Here" name="message" defaultValue={message} rows="5" onBlur={handleChange} />
-                </div>
-                {errorMessage && (
+    render() {
+        return (
+            <div>
+                <form
+                    onSubmit={this.handleSubmit.bind(this)}
+                    className="contact_form_class"
+                >
                     <div>
-                        <p className="error-text">{errorMessage}</p>
+                        <label>Name: </label>
+                        <input 
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="please enter your name"
+                            value={this.state.name}
+                            onChange={this.handleChange.bind(this)}
+                        ></input>
                     </div>
-                )}
-                <button type="submit">Submit</button>
-
-                <div>
-                    <ul>
-                        <li><a>Phone: 385.288.7920</a></li>
-                        <li><a href="mailto:david.mcdougal00@gmail.com">Email: david.mcdougal00@gmail.com</a></li>
-                    </ul>
-                </div>
-            </form>
-           
-        </section>
-    )
+                    <div>
+                        <label>Phone: </label>
+                        <input 
+                            type="text"
+                            id="phone"
+                            name="phone"
+                            placeholder="please enter your phone"
+                            value={this.state.phone}
+                            onChange={this.handleChange.bind(this)}
+                        ></input>
+                    </div>
+                    <div>
+                        <label>Message: </label>
+                        <input 
+                            type="text"
+                            id="message"
+                            name="message"
+                            placeholder="please enter your message"
+                            value={this.state.message}
+                            onChange={this.handleChange.bind(this)}
+                        ></input>
+                    </div>
+                    <div>
+                        <label>Email: </label>
+                        <input 
+                            type="text"
+                            id="email"
+                            name="email"
+                            placeholder="please enter your email"
+                            value={this.state.email}
+                            onChange={this.handleChange.bind(this)}
+                        ></input>
+                    </div>
+                    <input type="submit"></input>
+                </form>
+            </div>
+        )
+    }
 }
 
 export default Contact;
+
+
+
+
+
