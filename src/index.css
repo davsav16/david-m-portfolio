@@ -405,8 +405,18 @@ textarea {
   display: flex;
   margin-top: 50px; 
 }
+
+.skillPosition {
+  display: flex;
+  justify-content: center;
+}
+
+.skillWidth {
+  width: 70%;
+}
+
 .Sitem {
-  width: 12vw;
+  width: 7vw;
   padding: 2px;
 }
 
@@ -590,6 +600,10 @@ a {
   .Sitem {
     width: 30vw;
     padding: 2px;
+  }
+
+  .skillWidth {
+    width: 90%;
   }
   
 }
