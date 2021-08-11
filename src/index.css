@@ -239,6 +239,16 @@ nav  li {
   border-width: 3px;
 }
 
+.contactComp {
+  width: 80%;
+
+}
+
+.contSection {
+  display: flex;
+  justify-content: center;
+}
+
 .contactStyle {
   width: 95%;
   text-align: center;
@@ -251,6 +261,10 @@ nav  li {
 
 .contactDiv {
   padding-top: 27px;
+}
+
+.submitBtn {
+  margin-top: 16px;
 }
 
 #skillTitle {

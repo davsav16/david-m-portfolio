@@ -1,5 +1,6 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import * as emailjs from "emailjs-com";
+import { validateEmail } from "../../utils/helpers";
 
 
 export class Contact extends Component {
@@ -14,6 +15,7 @@ export class Contact extends Component {
         this.handleChange = this.handleChange.bind(this);
         this.handleChange = this.handleChange.bind(this);
     }
+
     handleChange = (e) => {
         this.setState({ [e.target.name]: e.target.value });
     };
@@ -36,58 +38,63 @@ export class Contact extends Component {
     };
     render() {
         return (
-            <div>
+            <section className="contSection" >
+                <div className="contactComp">
+                <h1 className="projectSec">Want to connect? Reach out! </h1>
                 <form
                     onSubmit={this.handleSubmit.bind(this)}
-                    className="contact_form_class"
+                    className="contact_form_class contactStyle"
+                    id="contact-form"
                 >
-                    <div>
-                        <label>Name: </label>
+                    <div className="contactDiv">
                         <input 
                             type="text"
                             id="name"
                             name="name"
-                            placeholder="please enter your name"
+                            size="30"
+                            placeholder="Please Enter Your Name"
                             value={this.state.name}
                             onChange={this.handleChange.bind(this)}
                         ></input>
                     </div>
-                    <div>
-                        <label>Phone: </label>
+                    <div className="contactDiv">
                         <input 
                             type="text"
                             id="phone"
                             name="phone"
-                            placeholder="please enter your phone"
+                            placeholder="Please Enter Your Phone Number"
+                            size="30"
                             value={this.state.phone}
                             onChange={this.handleChange.bind(this)}
                         ></input>
                     </div>
-                    <div>
-                        <label>Message: </label>
-                        <input 
-                            type="text"
-                            id="message"
-                            name="message"
-                            placeholder="please enter your message"
-                            value={this.state.message}
-                            onChange={this.handleChange.bind(this)}
-                        ></input>
-                    </div>
-                    <div>
-                        <label>Email: </label>
+                    <div className="contactDiv">
                         <input 
                             type="text"
                             id="email"
                             name="email"
-                            placeholder="please enter your email"
+                            size="30"
+                            placeholder="Please Enter Your Email"
                             value={this.state.email}
                             onChange={this.handleChange.bind(this)}
                         ></input>
                     </div>
-                    <input type="submit"></input>
+                    <div className="contactDiv">
+                        <textarea 
+                            type="text"
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="What would you like to connect about? :)"
+                            value={this.state.message}
+                            onChange={this.handleChange.bind(this)}
+                        ></textarea>
+                    </div>
+                  
+                    <button className="submitBtn" type="submit">Submit</button>
                 </form>
-            </div>
+                </div>
+            </section>
         )
     }
 }
