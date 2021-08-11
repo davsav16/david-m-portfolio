@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/david-m-portfolio/static/css/main.ec123c8b.chunk.css",
-    "main.js": "/david-m-portfolio/static/js/main.b1878937.chunk.js",
-    "main.js.map": "/david-m-portfolio/static/js/main.b1878937.chunk.js.map",
-    "runtime-main.js": "/david-m-portfolio/static/js/runtime-main.9784903a.js",
-    "runtime-main.js.map": "/david-m-portfolio/static/js/runtime-main.9784903a.js.map",
-    "static/js/2.6aefe2e2.chunk.js": "/david-m-portfolio/static/js/2.6aefe2e2.chunk.js",
-    "static/js/2.6aefe2e2.chunk.js.map": "/david-m-portfolio/static/js/2.6aefe2e2.chunk.js.map",
-    "static/js/3.45432a12.chunk.js": "/david-m-portfolio/static/js/3.45432a12.chunk.js",
-    "static/js/3.45432a12.chunk.js.map": "/david-m-portfolio/static/js/3.45432a12.chunk.js.map",
+    "main.css": "/david-m-portfolio/static/css/main.87b82aea.chunk.css",
+    "main.js": "/david-m-portfolio/static/js/main.f3f5c4e9.chunk.js",
+    "main.js.map": "/david-m-portfolio/static/js/main.f3f5c4e9.chunk.js.map",
+    "runtime-main.js": "/david-m-portfolio/static/js/runtime-main.f0a6ec82.js",
+    "runtime-main.js.map": "/david-m-portfolio/static/js/runtime-main.f0a6ec82.js.map",
+    "static/js/2.54cfe156.chunk.js": "/david-m-portfolio/static/js/2.54cfe156.chunk.js",
+    "static/js/2.54cfe156.chunk.js.map": "/david-m-portfolio/static/js/2.54cfe156.chunk.js.map",
+    "static/js/3.421feed5.chunk.js": "/david-m-portfolio/static/js/3.421feed5.chunk.js",
+    "static/js/3.421feed5.chunk.js.map": "/david-m-portfolio/static/js/3.421feed5.chunk.js.map",
     "index.html": "/david-m-portfolio/index.html",
-    "static/css/main.ec123c8b.chunk.css.map": "/david-m-portfolio/static/css/main.ec123c8b.chunk.css.map",
-    "static/js/2.6aefe2e2.chunk.js.LICENSE.txt": "/david-m-portfolio/static/js/2.6aefe2e2.chunk.js.LICENSE.txt",
+    "static/css/main.87b82aea.chunk.css.map": "/david-m-portfolio/static/css/main.87b82aea.chunk.css.map",
+    "static/js/2.54cfe156.chunk.js.LICENSE.txt": "/david-m-portfolio/static/js/2.54cfe156.chunk.js.LICENSE.txt",
     "static/media/Board Games.png": "/david-m-portfolio/static/media/Board Games.9e66b5b7.png",
     "static/media/Budget Tracker.png": "/david-m-portfolio/static/media/Budget Tracker.db5833df.png",
     "static/media/David_McDougal_Resume_2.f27494d5.pdf": "/david-m-portfolio/static/media/David_McDougal_Resume_2.f27494d5.pdf",
@@ -23,9 +23,9 @@
     "static/media/aboutImg.0d61fdb0.png": "/david-m-portfolio/static/media/aboutImg.0d61fdb0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9784903a.js",
-    "static/js/2.6aefe2e2.chunk.js",
-    "static/css/main.ec123c8b.chunk.css",
-    "static/js/main.b1878937.chunk.js"
+    "static/js/runtime-main.f0a6ec82.js",
+    "static/js/2.54cfe156.chunk.js",
+    "static/css/main.87b82aea.chunk.css",
+    "static/js/main.f3f5c4e9.chunk.js"
   ]
 }
