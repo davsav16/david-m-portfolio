@@ -41,11 +41,11 @@
         "description": "Created this PWA app during a lesson to create the ability for foodies to gather for events and purchase tickets for the event."
     },
     {
-        "projectName": "Board Games",
-        "link": "https://yana-mkr.github.io/board-games-6/",
-        "github": "https://github.com/davsav16/board-games-6",
-        "alt": "Screenshot of a board game selector.",
-        "tools": "HTML, CSS, JavaScript, Web APIS, and Local Storage.",
-        "description": "Created this website to allow users to search for and find a new favorite board game from a list of drop down options."
+        "projectName": "Events App",
+        "link": "https://e-v-e-n-t-s.herokuapp.com/",
+        "github": "https://github.com/davsav16/project-events",
+        "alt": "Screenshot of a an event creation webpage",
+        "tools": "MongoDB, Express, React, Node, CSS, Stripe, DonorBox, and EmailJs",
+        "description": "An app to create and keep track of events. Let's get out there and have fun again it is time."
     }
 ]
