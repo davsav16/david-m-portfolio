@@ -27,7 +27,8 @@ function App() {
         setResumeSelected={setResumeSelected}
 
       ></Navigation>
-      <main>
+      <main className="background">
+        <div>
       {(!aboutSelected && !contactSelected && !resumeSelected) ?(
           <>
             <Project></Project>
@@ -43,6 +44,7 @@ function App() {
         ) : (
           <About></About>
         )} 
+        </div>
       </main>
       <Footer />
     </div>

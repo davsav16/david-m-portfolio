@@ -2,6 +2,7 @@
 main {
 	margin: 0 auto;
 	max-width: 100%;
+  padding: 4vw;
 
 }
 :root {
@@ -34,9 +35,13 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--light);
   color: var(--secondary);
+}
 
+.background {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(../src/assets/background.jpg);
 }
 
 h1,
@@ -193,13 +198,14 @@ nav  li {
 }
 #profilePic {
   max-width: 130%;
-  padding: 15px;
   border-radius: 25px;
-  border-width: 15px;
-  border-color: beige;
+  border-width: 6px;
+  border-color: white;
+  border-style: solid;
 }
 .proPicCon {
   max-width: 23%;
+  padding: 15px;
 }
 
 .nav-padding {
@@ -234,9 +240,9 @@ nav  li {
   padding: 3vw;
   margin-left: 3vw;
   margin-right: 3vw;
-  color: var(--primary);
+  color: white;
   border-bottom: solid;
-  border-width: 3px;
+  border-width: 6px;
 }
 
 .contactComp {
