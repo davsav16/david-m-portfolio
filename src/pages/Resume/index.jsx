@@ -9,7 +9,7 @@ function Resume() {
                     <a href={davidResume} download="resume">
                         <img src={require('../../assets/document/ResumeShot.PNG').default} alt="Snapshot of David McDougal's Resume." id="resPic" />
                     </a>
-                    <a href={davidResume} download="resume">Click Image To Download</a>
+                    <a href={davidResume} download="resume">Click Image To Download My Resume</a>
                 </div>
             </div>
         </section>
