@@ -12,7 +12,7 @@ const Navbar = () => {
 
             <Nav>
                 <NavLink to="/david-m-portfolio">
-                    <h1>David's Website</h1>
+                    <h1 id="portTitle">David's Portfolio</h1>
                 </NavLink>
                 <Bars onClick={showSideBar}/>
                 <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
@@ -29,7 +29,7 @@ const Navbar = () => {
                        </li>
                        <li className="nav-text">
                            <Link to="/work">
-                               Past Projects
+                               Projects
                            </Link>
                        </li>
                        <li className="nav-text">

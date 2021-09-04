@@ -169,6 +169,7 @@ footer {
 
 .aboutSec {
   padding: 20px;
+  margin-top: 60px;
 }
 
 .aboutTextCont {
@@ -233,6 +234,10 @@ footer {
   border-width: 6px;
 }
 
+#project {
+  margin-top: 60px;
+}
+
 .contactComp {
   width: 80%;
 
@@ -241,6 +246,7 @@ footer {
 .contSection {
   display: flex;
   justify-content: center;
+  margin-top: 60px;
 }
 
 .contactStyle {
@@ -359,6 +365,7 @@ textarea {
   justify-content: center;
   padding-top: 5vw;
   padding-bottom: 5vw;
+  margin-top: 80px;
 }
 
 .resumeCard {
@@ -524,6 +531,12 @@ a {
   padding-top: 2vw;
 }
 
+#portTitle {
+  color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .nav-text a {
   color: #fff;
     display: flex;
@@ -533,6 +546,11 @@ a {
     height: 100%;
     cursor: pointer;
 }
+
+.nav-text a:hover{
+  color: var(--primary);
+}
+
 .nav-menu-items {
   display: flex;
 }
@@ -549,6 +567,22 @@ a {
 }
 
 @media screen and (max-width:872px) {
+  .aboutSec {
+    margin-top: 100px;
+  }
+
+  #project {
+    margin-top: 100px;
+  }
+
+  .contSection {
+    margin-top: 100px;
+  }
+
+  .resumeCont {
+    margin-top: 100px;
+  }
+
   .proPicCon {
     max-width: 100%;
     display: flex;
