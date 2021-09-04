@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/david-m-portfolio/static/css/main.42fdbea3.chunk.css",
-    "main.js": "/david-m-portfolio/static/js/main.4f79d15c.chunk.js",
-    "main.js.map": "/david-m-portfolio/static/js/main.4f79d15c.chunk.js.map",
-    "runtime-main.js": "/david-m-portfolio/static/js/runtime-main.547954e3.js",
-    "runtime-main.js.map": "/david-m-portfolio/static/js/runtime-main.547954e3.js.map",
-    "static/js/2.cb9ffcac.chunk.js": "/david-m-portfolio/static/js/2.cb9ffcac.chunk.js",
-    "static/js/2.cb9ffcac.chunk.js.map": "/david-m-portfolio/static/js/2.cb9ffcac.chunk.js.map",
-    "static/js/3.3b9dce41.chunk.js": "/david-m-portfolio/static/js/3.3b9dce41.chunk.js",
-    "static/js/3.3b9dce41.chunk.js.map": "/david-m-portfolio/static/js/3.3b9dce41.chunk.js.map",
+    "main.css": "/david-m-portfolio/static/css/main.f9bfc12f.chunk.css",
+    "main.js": "/david-m-portfolio/static/js/main.b2093e39.chunk.js",
+    "main.js.map": "/david-m-portfolio/static/js/main.b2093e39.chunk.js.map",
+    "runtime-main.js": "/david-m-portfolio/static/js/runtime-main.8c69d0ad.js",
+    "runtime-main.js.map": "/david-m-portfolio/static/js/runtime-main.8c69d0ad.js.map",
+    "static/js/2.da44976d.chunk.js": "/david-m-portfolio/static/js/2.da44976d.chunk.js",
+    "static/js/2.da44976d.chunk.js.map": "/david-m-portfolio/static/js/2.da44976d.chunk.js.map",
+    "static/js/3.adaac004.chunk.js": "/david-m-portfolio/static/js/3.adaac004.chunk.js",
+    "static/js/3.adaac004.chunk.js.map": "/david-m-portfolio/static/js/3.adaac004.chunk.js.map",
     "index.html": "/david-m-portfolio/index.html",
-    "static/css/main.42fdbea3.chunk.css.map": "/david-m-portfolio/static/css/main.42fdbea3.chunk.css.map",
-    "static/js/2.cb9ffcac.chunk.js.LICENSE.txt": "/david-m-portfolio/static/js/2.cb9ffcac.chunk.js.LICENSE.txt",
+    "static/css/main.f9bfc12f.chunk.css.map": "/david-m-portfolio/static/css/main.f9bfc12f.chunk.css.map",
+    "static/js/2.da44976d.chunk.js.LICENSE.txt": "/david-m-portfolio/static/js/2.da44976d.chunk.js.LICENSE.txt",
     "static/media/Board Games.png": "/david-m-portfolio/static/media/Board Games.9e66b5b7.png",
     "static/media/Budget Tracker.png": "/david-m-portfolio/static/media/Budget Tracker.db5833df.png",
     "static/media/David_McDougal_Resume_2.b1cf670c.pdf": "/david-m-portfolio/static/media/David_McDougal_Resume_2.b1cf670c.pdf",
@@ -21,12 +21,13 @@
     "static/media/Pizza Hut World Wide.png": "/david-m-portfolio/static/media/Pizza Hut World Wide.3af37f30.png",
     "static/media/ResumeShot.PNG": "/david-m-portfolio/static/media/ResumeShot.5c633a29.PNG",
     "static/media/Tech Blog.png": "/david-m-portfolio/static/media/Tech Blog.50294532.png",
-    "static/media/aboutImg.0d61fdb0.png": "/david-m-portfolio/static/media/aboutImg.0d61fdb0.png"
+    "static/media/aboutImg.0d61fdb0.png": "/david-m-portfolio/static/media/aboutImg.0d61fdb0.png",
+    "static/media/index.css": "/david-m-portfolio/static/media/background.82862589.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.547954e3.js",
-    "static/js/2.cb9ffcac.chunk.js",
-    "static/css/main.42fdbea3.chunk.css",
-    "static/js/main.4f79d15c.chunk.js"
+    "static/js/runtime-main.8c69d0ad.js",
+    "static/js/2.da44976d.chunk.js",
+    "static/css/main.f9bfc12f.chunk.css",
+    "static/js/main.b2093e39.chunk.js"
   ]
 }
