@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <main className="background">
         <Switch>
-          <Route path="/" exact component={About} />
+          <Route path="/david-m-portfolio" exact component={About} />
           <Route path="/work" exact component={Project} />
           <Route path="/contact-me" exact component={Contact} />
           <Route path="/resume" exact component={Resume} />
