@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/david-m-portfolio/static/css/main.f563eeee.chunk.css",
+    "main.css": "/david-m-portfolio/static/css/main.763e14d6.chunk.css",
     "main.js": "/david-m-portfolio/static/js/main.19efafa9.chunk.js",
     "main.js.map": "/david-m-portfolio/static/js/main.19efafa9.chunk.js.map",
     "runtime-main.js": "/david-m-portfolio/static/js/runtime-main.2632c633.js",
@@ -10,7 +10,7 @@
     "static/js/3.fccc9395.chunk.js": "/david-m-portfolio/static/js/3.fccc9395.chunk.js",
     "static/js/3.fccc9395.chunk.js.map": "/david-m-portfolio/static/js/3.fccc9395.chunk.js.map",
     "index.html": "/david-m-portfolio/index.html",
-    "static/css/main.f563eeee.chunk.css.map": "/david-m-portfolio/static/css/main.f563eeee.chunk.css.map",
+    "static/css/main.763e14d6.chunk.css.map": "/david-m-portfolio/static/css/main.763e14d6.chunk.css.map",
     "static/js/2.14192436.chunk.js.LICENSE.txt": "/david-m-portfolio/static/js/2.14192436.chunk.js.LICENSE.txt",
     "static/media/Board Games.png": "/david-m-portfolio/static/media/Board Games.9e66b5b7.png",
     "static/media/Budget Tracker.png": "/david-m-portfolio/static/media/Budget Tracker.db5833df.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.2632c633.js",
     "static/js/2.14192436.chunk.js",
-    "static/css/main.f563eeee.chunk.css",
+    "static/css/main.763e14d6.chunk.css",
     "static/js/main.19efafa9.chunk.js"
   ]
 }
