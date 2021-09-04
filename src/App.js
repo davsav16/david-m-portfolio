@@ -1,51 +1,27 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import About from './components/About';
-import Navigation from './components/Navigation';
-import Project from './components/Project';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
+import About from './pages/About';
+import Navbar from './components/Navbar';
+import Project from './pages/Project';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import Footer from './components/Footer';
 
 function App() {
-  const [aboutSelected, setAboutSelected] = useState(true);
-  const [ projectSelected, setProjectSelected] = useState(false);
-  const [ contactSelected, setContactSelected] = useState(false);
-  const [ resumeSelected, setResumeSelected] = useState(false);
-
-
   return (
     <div>
-      <Navigation
-        aboutSelected={aboutSelected}
-        setAboutSelected={setAboutSelected}
-        projectSelected={projectSelected}
-        setProjectSelected={setProjectSelected}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-        resumeSelected={resumeSelected}
-        setResumeSelected={setResumeSelected}
-
-      ></Navigation>
-      <main className="background">
-        <div>
-      {(!aboutSelected && !contactSelected && !resumeSelected) ?(
-          <>
-            <Project></Project>
-          </>  
-        ) :(!projectSelected && !aboutSelected && !resumeSelected) ? (
-          <>
-            <Contact></Contact>
-          </>
-        ) : (!projectSelected && !contactSelected && !aboutSelected) ? (
-          <>
-            <Resume></Resume>
-          </>
-        ) : (
-          <About></About>
-        )} 
-        </div>
-      </main>
+      <Router>
+        <Navbar />
+        <main className="background">
+        <Switch>
+          <Route path="/" exact component={About} />
+          <Route path="/work" exact component={Project} />
+          <Route path="/contact-me" exact component={Contact} />
+          <Route path="/resume" exact component={Resume} />
+        </Switch>
+        </main>
+      </Router>
       <Footer />
     </div>
   );
