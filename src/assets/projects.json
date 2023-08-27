@@ -1,5 +1,32 @@
 [
     {
+        "projectName": "Crypto Search",
+        "link": "https://crypto-search-m1va6iduy-davsav16.vercel.app/",
+        "github": "https://github.com/davsav16/cryptoSearch",
+        "alt": "Screenshot of a Crypto Searching app",
+        "tools": "Next.js, React.js, and CSS",
+        "description": "Created this small app using Next.js and React.js by following a short youtube tutorial to learn new skills and practice different styles of coding. This app can be used to find and search for a crypto currency."
+
+    },
+    {
+        "projectName": "Crypto Search",
+        "link": "https://crypto-search-m1va6iduy-davsav16.vercel.app/",
+        "github": "https://github.com/davsav16/cryptoSearch",
+        "alt": "Screenshot of a Crypto Searching app",
+        "tools": "Next.js, React.js, and CSS",
+        "description": "Created this small app using Next.js and React.js by following a short youtube tutorial to learn new skills and practice different styles of coding. This app can be used to find and search for a crypto currency."
+
+    },
+    {
+        "projectName": "Cookie Jar E-Commerce",
+        "link": "https://mcdougal-cookies.netlify.app/",
+        "github": "https://github.com/davsav16/Ecomerce-butter",
+        "alt": "Screenshot of a cookie E-commerce Website",
+        "tools": "React, Snipcart, Netlify, ButterCMS, and Chakra-UI",
+        "description": "Basic E-commerce app for buying cookies. Using ButterCMS, Snipcart, and Chakra UI. This has the basic layout for a shop with a pull out cart and checkout experience. Please note that you cannot actually buy anything, as the there is no backend set up, but it would be very easy to implement."
+
+    },
+    {
         "projectName": "Tech Blog",
         "link": "https://afternoon-castle-80416.herokuapp.com/",
         "github": "https://github.com/davsav16/Tech-Blog-For-Nerds",
