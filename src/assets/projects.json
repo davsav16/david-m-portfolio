@@ -1,11 +1,11 @@
 [
     {
-        "projectName": "Crypto Search",
-        "link": "https://crypto-search-m1va6iduy-davsav16.vercel.app/",
-        "github": "https://github.com/davsav16/cryptoSearch",
-        "alt": "Screenshot of a Crypto Searching app",
-        "tools": "Next.js, React.js, and CSS",
-        "description": "Created this small app using Next.js and React.js by following a short youtube tutorial to learn new skills and practice different styles of coding. This app can be used to find and search for a crypto currency."
+        "projectName": "Foodie Festival",
+        "link": "https://davsav16.github.io/improved-food-festival/",
+        "github": "https://github.com/davsav16/improved-food-festival",
+        "alt": "Screenshot of a Foodie App",
+        "tools": "Webpack, Service Workers, PWA, Lighthouse, CSS, HTML, and JavaScript",
+        "description": "Allow foodies though out the world to register for different food events, by tickets, and additional details. This app is a PWA so users can use it if they are experience a poor connection or even download it to their mobile device."
 
     },
     {
